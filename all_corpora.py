@@ -331,6 +331,11 @@ class Text:
 
 
 class Corpus:
+	"""
+	Class Corpus.
+	Contains functions:
+	    process_dir(dirname, outdirname, restricted=['skip']) - tell the function the path to the directory where the txt-files are stored (=dirname), the path to the directory where the output prs-files should be saved (=outdirname), an array with the names of the directories that should be skipped (=restricted).
+	"""
     def __init__(self):
         self.meta = {}
         
